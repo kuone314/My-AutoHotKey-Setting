@@ -18,14 +18,13 @@ vk1C & k::Down	;変換+k → ↓
 vk1C & j::Left	;変換+j → ←
 vk1C & l::Right	;変換+l → →
 
-;vk1C & h::Home	;変換+h → Home
+vk1C & n::Home	;変換+n → Home
 vk1C & h::Enter
 vk1C & `;::End	;変換+; → End
 
 vk1C & y::Esc
 vk1C & u::Esc
 vk1C & d::BS
-vk1C & n::Enter
 vk1C & o::BS
 
 ;左手側
