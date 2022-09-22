@@ -24,10 +24,10 @@ vk1C & `;::End	;変換+; → End
 
 vk1C & y::Esc
 vk1C & u::Esc
-vk1C & d::BS
 vk1C & o::BS
 
 ;左手側
+vk1C & d::BS
 vk1C & f::Enter	;変換+f → Enter
 vk1C & g::Esc
 
