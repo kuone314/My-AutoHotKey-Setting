@@ -13,18 +13,19 @@ vk1D::Alt
 
 ;///////////////////////////////////////////////////////////////////////////////////////////////////
 ;ホームポジションで操作
-vk1C & i::Up		;変換+i → ↑
-vk1C & k::Down	;変換+k → ↓
-vk1C & j::Left	;変換+j → ←
-vk1C & l::Right	;変換+l → →
+;変換
+vk1C & i::Up		; i → ↑
+vk1C & k::Down	; k → ↓
+vk1C & j::Left	; j → ←
+vk1C & l::Right	; l → →
 
-vk1C & n::Home	;変換+n → Home
-vk1C & h::Enter
-vk1C & `;::End	;変換+; → End
+vk1C & n::Home	; n → Home
+vk1C & h::Enter ; h → Enter
+vk1C & `;::End	; ; → End
 
-vk1C & y::Esc
-vk1C & u::Esc
-vk1C & o::BS
+vk1C & y::Esc   ; y → Esc
+vk1C & u::Esc   ; u → Esc
+vk1C & o::BS    ; o → BS
 
 ;左手側
 vk1C & d::BS
