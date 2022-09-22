@@ -31,11 +31,6 @@ vk1C & d::BS
 vk1C & f::Enter	;変換+f → Enter
 vk1C & g::Esc
 
-vk1C & a::Ctrl
-vk1C & s::Ctrl
-vk1C & z::Shift
-vk1C & x::Shift
-
 ;///////////////////////////////////////////////////////////////////////////////////////////////////
 ;コーディング補助
 ^;::Send,{vkBA}{vkBA}	; Ctrl+; → ::
