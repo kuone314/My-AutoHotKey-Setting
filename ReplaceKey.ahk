@@ -2,15 +2,6 @@
 Ins::BS
 vk1D::Alt
 
-^Home::Send,{Home}
-^+Home::Send,+{Home}
-^End::Send,{End}
-^+End::Send,+{End}
-^PgUp::Send,^{Home}
-^+PgUp::Send,^+{Home}
-^PgDn::Send,^{End}
-^+PgDn::Send,^+{End}
-
 ;///////////////////////////////////////////////////////////////////////////////////////////////////
 ;ホームポジションで操作
 ;変換
@@ -33,10 +24,11 @@ vk1C & f::Enter	;変換+f → Enter
 vk1C & g::Esc
 
 ; カタカナひらがなキー
-F4 & j::Home
-F4 & l::End
-F4 & i::PgUp
-F4 & k::PgDn
+; ChangeKey で、F13 へ置き換えての使用。
+F13 & j::Home
+F13 & l::End
+F13 & i::PgUp
+F13 & k::PgDn
 
 
 ;///////////////////////////////////////////////////////////////////////////////////////////////////
